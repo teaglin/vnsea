@@ -1,0 +1,20 @@
+#summary Changes between versions.
+#labels Featured
+
+==Release Notes==
+
+*Version 0.2*
+  * Vnsea now has very basic mouse control. Scrolling is now done with two fingers, while a single finger controls the mouse.
+  * Support for all encoding formats supported by CotVNC, including JPEG.
+  * You can control the desired pixel depth from the server settings to cut down on bandwidth.
+  * Better error reporting (i.e. no crash) if a connection cannot be made.
+  * Shimmer is included so future updates can be performed automatically.
+
+*Version 0.1*
+  * Initial release. Very buggy, and view only.
+
+
+ 
+ 
+ 
+ 
