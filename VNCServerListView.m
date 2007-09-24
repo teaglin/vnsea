@@ -20,6 +20,8 @@
 #define kAddButtonHeight (48)
 #define kAddButtonWidth (120)
 
+#define kAddButtonName @"Add Server"
+
 @implementation VNCServerListView
 
 - (id)initWithFrame:(CGRect)frame
@@ -34,12 +36,12 @@
 		
 		// Setup navbar
 		_navBar = [[UINavigationBar alloc] initWithFrame: subframe];
-		[_navBar showButtonsWithLeftTitle:NSLocalizedString(@"About", nil) rightTitle:NSLocalizedString(@"New", nil) leftBack: NO];
+		[_navBar showButtonsWithLeftTitle: @"About" rightTitle: @"New" leftBack: NO];
 		[_navBar setBarStyle: 3];
 		[_navBar setDelegate: self];
 		[self addSubview: _navBar];
 		
-		UINavigationItem * item = [[UINavigationItem alloc] initWithTitle:NSLocalizedString(@"VNC Servers", nil)];
+		UINavigationItem * item = [[UINavigationItem alloc] initWithTitle:@"VNC Servers"];
 		[_navBar pushNavigationItem:item];
 		
 		// Setup button bar at bottom

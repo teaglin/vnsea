@@ -23,12 +23,12 @@
 		// Create nav bar
 		subviewFrame = CGRectMake(0.0f, 0.0f, frame.size.width, 48);
 		_navBar = [[UINavigationBar alloc] initWithFrame:subviewFrame];
-		[_navBar showButtonsWithLeftTitle:NSLocalizedString(@"Cancel", nil) rightTitle:NSLocalizedString(@"Save", nil) leftBack: YES];
+		[_navBar showButtonsWithLeftTitle: @"Cancel" rightTitle: @"Save" leftBack: YES];
 		[_navBar setBarStyle: 3];
 		[_navBar setDelegate: self];
 		[self addSubview: _navBar];
 		
-		UINavigationItem * item = [[UINavigationItem alloc] initWithTitle:NSLocalizedString(@"Edit Server", nil)];
+		UINavigationItem * item = [[UINavigationItem alloc] initWithTitle:@"Edit Server"];
 		[_navBar pushNavigationItem:item];
 		
 		// Create preferences table
@@ -40,20 +40,20 @@
 		
 		// Create edit field cells.
 		UIPreferencesTextTableCell * nameCell = [[UIPreferencesTextTableCell alloc] init];
-		[nameCell setTitle:NSLocalizedString(@"Name", nil)];
+		[nameCell setTitle:@"Name"];
 		
 		UIPreferencesTextTableCell * addressCell = [[UIPreferencesTextTableCell alloc] init];
-		[addressCell setTitle:NSLocalizedString(@"Address", nil)];
+		[addressCell setTitle:@"Address"];
 		
 		UIPreferencesTextTableCell * passwordCell = [[UIPreferencesTextTableCell alloc] init];
-		[passwordCell setTitle:NSLocalizedString(@"Password", nil)];
-		[passwordCell setPlaceHolderValue:NSLocalizedString(@"enter password", nil)];
+		[passwordCell setTitle:@"Password"];
+		[passwordCell setPlaceHolderValue:@"enter password"];
 		
 		UIPreferencesTextTableCell * displayCell = [[UIPreferencesTextTableCell alloc] init];
-		[displayCell setTitle:NSLocalizedString(@"Display", nil)];
+		[displayCell setTitle:@"Display"];
 		
 		UIPreferencesControlTableCell * sharedCell = [[UIPreferencesControlTableCell alloc] init];
-		[sharedCell setTitle:NSLocalizedString(@"Shared", nil)];
+		[sharedCell setTitle:@"Shared"];
 		
 		CGPoint controlOrigin = CGPointMake(200, 9);
 		_sharedSwitch = [[UISwitchControl alloc] init];
@@ -61,7 +61,7 @@
 		[sharedCell setControl:_sharedSwitch];
 		
 		UIPreferencesControlTableCell * viewOnlyCell = [[UIPreferencesControlTableCell alloc] init];
-		[viewOnlyCell setTitle:NSLocalizedString(@"View Only", nil)];
+		[viewOnlyCell setTitle:@"View Only"];
 
 		_viewOnlySwitch = [[UISwitchControl alloc] init];
 		[_viewOnlySwitch setOrigin:controlOrigin];
@@ -69,7 +69,7 @@
 		
 		subviewFrame = [_table frameOfPreferencesCellAtRow:6 inGroup:0];
 		UIPreferencesTableCell * pixelDepthCell = [[UIPreferencesTableCell alloc] initWithFrame:subviewFrame];
-		[pixelDepthCell setTitle:NSLocalizedString(@"Pixel Depth", nil)];
+		[pixelDepthCell setTitle:@"Pixel Depth"];
 
 		subviewFrame.origin = CGPointMake(154, 9);
 		subviewFrame.size.height = [UISegmentedControl defaultHeightForStyle:2];
@@ -83,7 +83,7 @@
 		// Create Delete Server button
 		subviewFrame = [_table frameOfPreferencesCellAtRow:0 inGroup:1];
 		_deleteCell = [[UIPreferencesDeleteTableCell alloc] initWithFrame:subviewFrame];
-		[[_deleteCell button] setTitle:NSLocalizedString(@"Delete Server", nil)];
+		[[_deleteCell button] setTitle:@"Delete Server"];
 		[[_deleteCell button] addTarget:self action:@selector(deleteButtonPressed:) forEvents:kGSEventTypeButtonSelected];
 	}
 	

@@ -69,6 +69,29 @@
 	return _connection;
 }
 
+//! \todo This needs to be moved up to the application.
+//!
+- (void)connection:(RFBConnection *)connection hasTerminatedWithReason:(NSString *)reason
+{
+	NSArray * buttons = [NSArray arrayWithObject:@"OK"];
+	
+	UIAlertSheet * hotSheet = [[UIAlertSheet alloc]
+				initWithTitle:@"Connection terminated"
+				buttons:buttons
+				defaultButtonIndex:0
+				delegate:self
+				context:self];
+	
+	[hotSheet setBodyText:reason];
+	[hotSheet setDimsBackground:YES];
+	[hotSheet _slideSheetOut:YES];
+	[hotSheet setRunsModal:YES];
+	[hotSheet setShowsOverSpringBoardAlerts:NO];
+	
+//	[hotSheet presentSheetToAboveView:self];
+	[hotSheet popupAlertAnimated:YES];
+}
+
 - (void)alertSheet:(id)sheet buttonClicked:(int)buttonIndex
 {  
 	[sheet dismissAnimated:YES];
@@ -86,6 +109,7 @@
 	if (_connection)
 	{
 		_eventFilter = [_connection eventFilter];
+		[_connection setDelegate:self];
 	}
 	else
 	{
