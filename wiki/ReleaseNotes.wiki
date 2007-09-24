@@ -3,6 +3,13 @@
 
 ==Release Notes==
 
+*Version 0.3*
+  * If it takes more than a moment to open a connection, an message appears saying "Connecting to server".
+  * Connecting is done in the background so the UI isn't frozen.
+  * Error messages are much better, describing the actual reason for a connection failure.
+  * Shimmer update checking is done in the background, to prevent the UI from becoming locked up if the update server cannot be reached for some reason.
+  * Major refactoring of the connection related code.
+
 *Version 0.2*
   * Vnsea now has very basic mouse control. Scrolling is now done with two fingers, while a single finger controls the mouse.
   * Support for all encoding formats supported by CotVNC, including JPEG.
@@ -14,6 +21,8 @@
   * Initial release. Very buggy, and view only.
 
 
+ 
+ 
  
  
  
