@@ -15,6 +15,7 @@
  * Issue 45: 16-bit pixel depth uses only 4 bits per component
  * Issue 46: 8-bit pixel depth uses only 2 bits per colour component
  * Issue 48: Connecting to osxvnc server occasionally fails even when CotVNC works
+ * In view only mode, chording is no longer needed to scroll.
 
 *Version 0.3*
   * If it takes more than a moment to open a connection, an message appears saying "Connecting to server".
