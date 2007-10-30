@@ -1,6 +1,4 @@
-#summary Things that team members are working on or planning to do.
-
-This page lists things that team members are actively working on or planning to work on soon.
+#summary This page lists things that team members are actively working on or planning to work on soon.
 
 
 *Chris Reed*
@@ -13,4 +11,3 @@ This page lists things that team members are actively working on or planning to 
 *Glenn Kreisel*
 
  * Rubber banding for zoom.
-
