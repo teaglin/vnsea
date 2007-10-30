@@ -1,0 +1,16 @@
+#summary Things that team members are working on or planning to do.
+
+This page lists things that team members are actively working on or planning to work on soon.
+
+
+*Chris Reed*
+
+ * Rotating the UI.
+ * Switching to use UIKit gesture processing for zooming instead of doing it ourselves.
+ * Cleaning up and documenting the code.
+
+
+*Glenn Kreisel*
+
+ * Rubber banding for zoom.
+
