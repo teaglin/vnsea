@@ -11,3 +11,6 @@
 *Glenn Kreisel*
 
  * Rubber banding for zoom.
+ * Popup zoom indicator that shows scale percent 
+ * Display scale percent at the zoom point on the device.
+ 
