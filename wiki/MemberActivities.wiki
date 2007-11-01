@@ -13,7 +13,8 @@
 
 *Glenn Kreisel*
 
- * Rubber banding for zoom.
- * Popup zoom indicator that shows scale percent 
- * Display scale percent at the zoom point on the device.
- * Make status bar at top transparent
+ * Rubber banding for zoom - done
+ * Popup zoom indicator that shows scale percent - done
+ * Display scale percent at the zoom point on the device. - done
+ * Make status bar at top transparent - done
+ * Working on optimizing COTVNC code for drawing and image data messaging
