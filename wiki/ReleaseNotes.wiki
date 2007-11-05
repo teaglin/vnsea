@@ -3,6 +3,29 @@
 
 ==Release Notes==
 
+*Version 0.5*
+ * Numerous bug fixes and enhancements, including adding keyboard, right mouse, landscape, and zooming support. Many thanks to new project member Glenn Kreisel for all his hard work in this release!
+ * Main screen reorganised a little.
+ * There is a new preferences screen, currently a little empty. In future versions many more preferences will be added.
+ * A controls bar has been added to the remote screen display. It has buttons for toggling the on-screen keyboard, modifier keys, right mouse, and zooming settings. The "X" button closes the connection. Tapping the system status bar will hide and show the controls bar.
+ * Issue 5: No Keyboard access
+ * Issue 9: Need to right-click
+ * Issue 11: Need option to disconnect from server
+ * Issue 13: Landscape support
+ * Issue 15: Use placeholder values for all server info fields instead of default values
+ * Issue 16: Screen Scaling would also be handy
+ * Issue 17: Validate server info fields when saving
+ * Issue 26: Server password field is not bulleted out
+ * Issue 27: Passwords are stored in plaintext in preferences
+ * Issue 35: Inability to cusomize port number
+ * Issue 41: No warning when deleting a server
+ * Issue 50: Show an optional target mark on the "click" hot spot
+ * Issue 51: Ask for password before connecting if password left empty in server settings
+ * Issue 52: Use a better keyboard layout for editing server settings
+ * Issue 63: weird hang when deleting lines from gvim
+ * Issue 64: Click "New Server" then Cancel..Leaves "new server" entry in server list
+ * Issue 65: Sort list of Servers
+
 *Version 0.4*
  * Issue 23: Double-tapping/clicking does not work
  * Issue 39: Too easy to accidentally click when chording to scroll
