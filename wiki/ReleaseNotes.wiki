@@ -3,6 +3,17 @@
 
 ==Release Notes==
 
+*Version 0.5.1*
+ * Bug fixes and small improvements to the features added in version 0.5.
+ * The screen will automatically scroll now if you drag to the edge of the display and hold it.
+ * The last time a server was connected to is now shown in the list of servers.
+ * Issue 38 Screen doesn't scroll while dragging the remote mouse
+ * Issue 78 Transition to remote screen not smooth..
+ * Issue 79 Mouse Tracks were staying around when going back to server list
+ * Issue 84 Mouse tracks do not follow scrolling
+ * Issue 85 Mouse tracks disappear too abruptly
+ * Issue 91 Last connect time in Server List
+
 *Version 0.5*
  * Numerous bug fixes and enhancements, including adding keyboard, right mouse, landscape, and zooming support. Many thanks to new project member Glenn Kreisel for all his hard work in this release!
  * Main screen reorganised a little.
