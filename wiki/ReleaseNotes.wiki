@@ -3,6 +3,20 @@
 
 ==Release Notes==
 
+*Version 0.6*
+ * Some bug fixes. This release should be quite stable.
+ * A new helper functions window that is shown with the "More" button. It contains a number of useful key commands, such as ctrl-alt-del, function keys, and so on. The fit to screen controls have also been moved here.
+ * A new preference to keep open connections alive when the home button is pressed has been added. A check mark is visible on the VNsea icon in SpringBoard when there is an active connection.
+ * Reorganised the main server list screen a little.
+ * Issue 6 Status display would be very handy
+ * Issue 8 Unable to send ctrl +alt +delete command
+ * Issue 69 Connection to host computer should stay open if you press the home button
+ * Issue 80 "New" button on Nav bar does not conform..
+ * Issue 83 Occassional crash when connected for a while
+ * Issue 86 Crashing using EDGE
+ * Issue 100 Please add Tab key
+ * Issue 101 No esc
+
 *Version 0.5.1*
  * Bug fixes and small improvements to the features added in version 0.5.
  * The screen will automatically scroll now if you drag to the edge of the display and hold it.
