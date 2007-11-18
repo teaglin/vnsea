@@ -8,7 +8,9 @@
  * A new helper functions window that is shown with the "More" button. It contains a number of useful key commands, such as ctrl-alt-del, function keys, and so on. The fit to screen controls have also been moved here.
  * A new preference to keep open connections alive when the home button is pressed has been added. A check mark is visible on the VNsea icon in SpringBoard when there is an active connection.
  * Reorganised the main server list screen a little.
+ * A workaround has been added for very large displays or multiple monitor systems. It is imperfect, in that it cuts the display off, but the underlying problem is with the OS so not a whole lot can be done.
  * Issue 6 Status display would be very handy
+ * Issue 7 Garbled screen with multiple monitors or large display
  * Issue 8 Unable to send ctrl +alt +delete command
  * Issue 69 Connection to host computer should stay open if you press the home button
  * Issue 80 "New" button on Nav bar does not conform..
