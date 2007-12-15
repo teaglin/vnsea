@@ -3,6 +3,9 @@
 
 ==Release Notes==
 
+*Version 0.7*
+ * _Full release notes coming soon._
+
 *Version 0.6*
  * Some bug fixes. This release should be quite stable.
  * A new helper functions window that is shown with the "More" button. It contains a number of useful key commands, such as ctrl-alt-del, function keys, and so on. The fit to screen controls have also been moved here.
