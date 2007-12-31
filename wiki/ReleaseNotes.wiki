@@ -2,7 +2,13 @@
 #labels Featured
 
 ==Release Notes==
-
+*Version 0.71*
+ * added the command line option "-s hostname" to auto connect if vnsea is lauched from a command line i.e. for SSH tunnels
+ * changed double click top status bar to single click for view only mode while connected
+ * added a double click while in view only mode zooms to 100% and double click again brings you back to preview zoom
+ * added a loading screen to show VNC is loading.  Showing app screen was deceiving.
+ * sent to InstallApp for posting.
+  
 *Version 0.7*
  * _Full release notes coming soon._
 
