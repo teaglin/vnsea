@@ -1,7 +1,11 @@
 #summary Changes between versions.
 #labels Featured
 
+
 ==Release Notes==
+*Version 0.81*
+ * fix for 1.1.3 firmware and saving the server lists
+
 *Version 0.71*
  * added the command line option "-s hostname" to auto connect if vnsea is lauched from a command line i.e. for SSH tunnels
  * changed double click top status bar to single click for view only mode while connected
